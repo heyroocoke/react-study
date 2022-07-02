@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background:pink;
+}
+.main-card button {
+  width:30px; height:30px;
+  border:1px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+  left: -45px;
+  bottom: 15px;
+  cursor: pointer;
+}
+.favorites {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.title{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100px;
+  background:#FF4757;
+  color:pink;
+}
+
+.b_text{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100px;
+  background: #FF4757;
+  color:pink;
+}
+
+.refresh{
+  margin-top:30px;
+  border:1px solid #0EB335;
+  background-color: #0EB335;
+  color:#fff;
+  padding:5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.f_dis{
+  margin-top:20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.t_btn{
+  margin-top:10px;
+  width:100px;
+  border:1px solid #FF4757;
+  background-color: #FF4757;
+  color:pink;
+  padding:5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.t_box{
+  padding:7px;
+  border-radius: 10px;
+  border:none;
+}
