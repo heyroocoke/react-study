@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -38,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://heyroocoke.github.io/react-study"
+  "homepage": "https://heyroocoke.github.io/react-studygit"
 }
